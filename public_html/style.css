@@ -160,3 +160,28 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.contact-title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#form {
+    border: #F8F7F4 solid 5px;
+}
+
+#contact-form {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.contact-left {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
