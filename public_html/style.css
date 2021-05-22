@@ -2,17 +2,23 @@ body {
     background: #FFF9F4;
 }
 
+.nav-link {
+    color: #C98347; !important;
+}
+
+
 .hero {
-    background-image: url("img/headshot.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 50%;
+    background-color: transparent;
+    height: auto;
+    width: 100%;
 }
 
 .break {
     width: 25%;
     margin-top: 20em;
-    margin-right: auto;
     color: whitesmoke;
     padding-top: 1px;
     opacity: 1;
@@ -73,19 +79,19 @@ body {
     position: absolute;
     width: 375px;
     height: 375px;
-    background: whitesmoke;
+    background: white;
     z-index: 30;
     opacity: 0.6;
 }
 
 .opague-box h2 {
-    color: #E0A78A;
+    color: #C98347;
     text-align: center;
     margin-top: 0.5em;
 }
 
 .opague-box p {
-    color: #E0A78A;
+    color: #C98347;
     text-align: center;
     margin-top: 1em;
 }
@@ -107,10 +113,16 @@ a {
 .about-me {
     width: 250px;
     height: 360px;
+    margin-left: 25px;
 }
 
 #container-about-me {
     position: relative;
+}
+
+.hobby {
+    height: 500px;
+    width: 300px;
 }
 
 .break-4 {
