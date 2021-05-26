@@ -16,6 +16,7 @@ body {
     width: 100%;
 }
 
+
 .break {
     width: 25%;
     margin-top: 20em;
@@ -74,14 +75,9 @@ body {
 }
 
 .opague-box {
-    top: 60px;
-    left: 100px;
-    position: absolute;
     width: 375px;
     height: 375px;
-    background: white;
-    z-index: 30;
-    opacity: 0.6;
+    background: #E7D2BF;
 }
 
 .opague-box h2 {
@@ -100,23 +96,13 @@ a {
     color: #E0A78A;
 }
 
-.tan-box {
-    top: 80px;
-    left: 120px;
-    position: absolute;
-    width: 375px;
-    height: 375px;
-    background: #E7D2BF;
-    z-index: 2;
-}
-
 .about-me {
     width: 250px;
     height: 360px;
     margin-left: 25px;
 }
 
-#container-about-me {
+#about-me {
     position: relative;
 }
 
@@ -134,20 +120,34 @@ a {
     opacity: 1;
 }
 
-.resume {
-    text-align: center;
-    font-size: 6em;
-    margin-top: 1em;
+#resume hr {
+    width: 65%;
+    margin: auto;
     color: #C98347;
+    padding-top: 1px;
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
-/*Need to change below*/
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
 
-.pink-box h2 {
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#resume h2 {
     text-align: center;
-    font-style: normal;
-    font-family: 'Tenor Sans', sans-serif;
     color: #C98347;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3em;
+
 }
 
 .break-5 {
@@ -156,12 +156,6 @@ a {
     color: #C98347;
     padding-top: 1px;
     opacity: 1;
-}
-
-footer {
-    background-color: #C98347;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .contact-title {
@@ -191,7 +185,17 @@ footer {
 }
 
 .contact-me {
-    height: 200px;
     width: 300px;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    height: auto;
+}
+
+footer {
+    background-color: #C98347;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

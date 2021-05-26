@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 
@@ -23,16 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#welcome">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#intro">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#form">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -40,47 +42,40 @@
     </nav>
 </section>
 
-<div class="welcome-card">
+<div class="welcome-card" id="welcome">
     <img src="img/hero.png" class="hero">
 </div>
 
 <hr class="break-3">
 
-<div class="container">
+<div class="container" id="intro">
     <div>
         <h2 class="intro">LET'S GET TO KNOW EACH OTHER, <br> I'LL GO FIRST!</h2>
     </div>
 </div>
 
 <div>
-    <div class="container-fluid" id="container-about-me">
-        <div class="row py-3">
+    <div class="container-fluid" id="about-me">
+        <div class="row">
             <div class="col-lg">
                 <div class="opague-box">
                     <h2>About Me</h2>
-                    <p>My entrepreneurial spirit has left me with a desire to become the jane of all trades. Diving into
-                        the
-                        nitty gritty of SEO, creating an aesthetically pleasing instagram post, or building a responsive
-                        website
-                        from the ground up. Either way, CHALLENGE ACCEPTED! I own two vastly creative businesses, <a
+                    <p>My entrepreneurial spirit has left me with a desire to become the Jane of all trades. I
+                        specialize in building responsive websites that meet Google’s SEO criteria. My eye for design
+                        and passion for all things aesthetic, ensures that I will bring your vision to life in a
+                        website. I own two vastly creative businesses, <a
                                 href="https://www.instagram.com/millysmagicco/">Milly’s
-                            Magic</a>,
-                        and <a href="https://www.instagram.com/athousandtimesyes_/">A Thousand Times Yes</a>. I live by
-                        the
-                        three C’s, create code, coffee. Let’s just say my brain
-                        works
-                        out harder than I do. If I’m not at my computer writing code like my life depended on it, look
-                        for
-                        my
-                        dogs, that’s where I’ll be.</p>
+                            Magic</a>, and <a href="https://www.instagram.com/athousandtimesyes_/">A Thousand Times
+                            Yes</a>. I live by the three C’s, create code, and coffee. Let’s just say my brain works out
+                        harder than I do. If I’m not at my computer writing code or designing like my life depended on
+                        it, look for my dogs that’s where I’ll be.</p>
                 </div>
             </div>
-            <div class="tan-box"></div>
-            <div class="col-lg mx-5">
+            <div class="col-lg">
                 <img class="about-me img-fluid d-block mb-4 mx-auto" src="img/about-me.jpg" alt="headshot">
             </div>
-            <div class="col">
-        <img src="img/hobby-icons.png" alt="hobbies" class="hobby">
+            <div class="col-lg">
+                <img src="img/hobby-icons.png" alt="hobbies" class="hobby">
             </div>
         </div>
     </div>
@@ -88,18 +83,23 @@
 
 <hr class="break-4">
 
-<div class="container">
-    <div class="col-fluid">
-        <h1 class="resume">Resume</h1>
-    </div>
+<div class="container" id="resume">
     <div>
         <h2>EDUCATION & <br> CERTIFICATIONS</h2>
+        <hr>
+        <h3>Central New Mexico Community College</h3>
+        <h5>Associate's Degree in Applied Science in Integrated Studies</h5>
     </div>
     <div>
         <h2>EXPERIENCE</h2>
+        <hr>
+        <h3>Deep Dive Powered by CNM Ingenuity</h3>
+        <p>Fullstack Web Development Bootcamp</p>
+
     </div>
     <div>
         <h2>PROJECTS</h2>
+        <hr>
     </div>
 </div>
 
@@ -109,7 +109,7 @@
 <main class="container" id="form">
     <div class="row" id="contact-form">
         <div class="row">
-        <img src="img/contact-me.png" alt="contact" class="contact-me">
+            <img src="img/contact-me.png" alt="contact" class="contact-me">
         </div>
         <div class="col">
             <h1 class="contact-left">Your turn! I’d love to hear from you!</h1>
