@@ -2,10 +2,11 @@ body {
     background: #FFF9F4;
 }
 
+/*Need to review this one*/
+
 .nav-link {
     color: #C98347; !important;
 }
-
 
 .hero {
     background-size: cover;
@@ -14,41 +15,6 @@ body {
     background-color: transparent;
     height: auto;
     width: 100%;
-}
-
-
-.break {
-    width: 25%;
-    margin-top: 20em;
-    color: whitesmoke;
-    padding-top: 1px;
-    opacity: 1;
-}
-
-.card-title-h4 {
-    margin-left: 12em;
-    color: whitesmoke;
-}
-
-.card-text-h1 {
-    margin-left: 2em;
-    font-style: normal;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 3em;
-    color: whitesmoke;
-}
-
-.card-text-h6 {
-    margin-left: 10em;
-    color: whitesmoke;
-}
-
-.break-2 {
-    width: 27%;
-    margin-left: 30%;
-    color: whitesmoke;
-    padding-top: 1px;
-    opacity: 1;
 }
 
 .break-3 {
@@ -68,10 +34,6 @@ body {
     font-size: 50px;
     margin-bottom: 4rem;
     margin-top: 4rem;
-}
-
-.wrapper {
-    position: relative;
 }
 
 .opague-box {
@@ -121,33 +83,24 @@ a {
 }
 
 #resume hr {
-    width: 65%;
-    margin: auto;
     color: #C98347;
     padding-top: 1px;
     opacity: 1;
-    animation-duration: 3s;
-    animation-name: slidein;
+    width: 100%;
 }
 
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
 
 #resume h2 {
     text-align: center;
     color: #C98347;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 3em;
+}
 
+#resume img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .break-5 {
@@ -167,7 +120,9 @@ a {
 }
 
 #form {
-    border: #C98347 solid 4px;
+    background-color: #C98347;
+    border-radius: 15px;
+    margin-bottom: 3em;
 }
 
 #contact-form {
@@ -185,12 +140,9 @@ a {
 }
 
 .contact-me {
-    width: 300px;
+    display: flex;
     align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-color: transparent;
+    justify-content: center;
     height: auto;
 }
 

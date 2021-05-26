@@ -43,7 +43,7 @@
 </section>
 
 <div class="welcome-card" id="welcome">
-    <img src="img/hero.png" class="hero">
+    <img src="img/hero.svg" class="hero">
 </div>
 
 <hr class="break-3">
@@ -75,7 +75,7 @@
                 <img class="about-me img-fluid d-block mb-4 mx-auto" src="img/about-me.jpg" alt="headshot">
             </div>
             <div class="col-lg">
-                <img src="img/hobby-icons.png" alt="hobbies" class="hobby">
+                <img src="img/hobby-icons.svg" alt="hobbies" class="hobby">
             </div>
         </div>
     </div>
@@ -84,22 +84,30 @@
 <hr class="break-4">
 
 <div class="container" id="resume">
-    <div>
-        <h2>EDUCATION & <br> CERTIFICATIONS</h2>
-        <hr>
-        <h3>Central New Mexico Community College</h3>
-        <h5>Associate's Degree in Applied Science in Integrated Studies</h5>
-    </div>
-    <div>
-        <h2>EXPERIENCE</h2>
-        <hr>
-        <h3>Deep Dive Powered by CNM Ingenuity</h3>
-        <p>Fullstack Web Development Bootcamp</p>
+    <div class="row">
+        <div class="col-fluid">
+            <div>
+                <hr>
+                <h2>EDUCATION & <br> CERTIFICATIONS</h2>
+                <hr>
+                <h3>Central New Mexico Community College</h3>
+                <h5>Associate's Degree in Applied Science in Integrated Studies</h5>
+            </div>
+            <div>
+                <hr>
+                <h2>EXPERIENCE</h2>
+                <hr>
+                <h3>Deep Dive Powered by CNM Ingenuity</h3>
+                <p>Fullstack Web Development Bootcamp</p>
 
-    </div>
-    <div>
-        <h2>PROJECTS</h2>
-        <hr>
+            </div>
+            <div>
+                <hr>
+                <h2>PROJECTS</h2>
+                <hr>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -108,13 +116,10 @@
 
 <main class="container" id="form">
     <div class="row" id="contact-form">
-        <div class="row">
-            <img src="img/contact-me.png" alt="contact" class="contact-me">
+        <div class="col-lg-6">
+            <img src="img/contact-me.svg" alt="contact" class="contact-me">
         </div>
-        <div class="col">
-            <h1 class="contact-left">Your turn! I’d love to hear from you!</h1>
-        </div>
-        <div class="contact col-md-6">
+        <div class="contact col-lg-6">
             <form action="./apis/" id="contact" method="post" novalidate>
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
@@ -150,7 +155,16 @@
 
 
 <footer class="text-center mb-0">
-    <small>Icons</small>
+    <div class="row">
+        <div class="col">
+            <a href="https://www.linkedin.com/in/imyraly-garcia-66a20b137/">
+                <img src="" alt="linkedin-icon" class="footer-icon">
+            </a>
+            <a href="https://github.com/ImyralyGarcia">
+                <img src="" alt="Github Icon" class="footer-icon">
+            </a>
+        </div>
+    </div>
 </footer>
 
 <script
