@@ -84,9 +84,9 @@ a {
 
 #resume hr {
     color: #C98347;
-    padding-top: 1px;
+    padding-top: 2px;
     opacity: 1;
-    width: 100%;
+    display: block
 }
 
 
@@ -101,6 +101,11 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#skill-icons img {
+    height: 100px;
+    width: 100px;
 }
 
 .break-5 {
@@ -130,20 +135,10 @@ a {
     margin-right: 5em;
 }
 
-.contact-left {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color: #C98347;
-}
-
 .contact-me {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
 }
 
 footer {
